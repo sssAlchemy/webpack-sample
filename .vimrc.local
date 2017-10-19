@@ -1,0 +1,20 @@
+set tabstop=2
+set sw=2
+
+""call plug#begin('./.vim/plugged')
+""
+""Plug 'othree/yajs.vim'            " es6のハイライト
+""Plug 'othree/es.next.syntax.vim'  " stage-0 のsyntax highlight
+""Plug 'mxw/vim-jsx'                " jsxのハイライト
+""
+""cal plug#end()
+""
+""" vim-jsx用の設定
+""let g:jsx_ext_required = 1        " ファイルタイプがjsxのとき読み込む．
+""let g:jsx_pragma_required = 0     " @から始まるプラグマでは読み込まない．
+""
+""augroup Vimrc
+""    autocmd!
+""    autocmd BufNewFile,BufRead *.jsx set filetype=javascript.jsx
+""augroup END
+""
